@@ -4,7 +4,9 @@ const byteSize = (str) => {
      return new Blob([str]).size;
 }
 
-// Example test cases
+console.log(byteSize("hello world")); // Expected output: 11
+console.log(byteSize("안녕하세요")); // Expected output: 15
+console.log(byteSize("")); // 
 
 
 };
