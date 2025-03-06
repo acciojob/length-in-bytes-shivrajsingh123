@@ -1,7 +1,7 @@
 const byteSize = (str) => {
   
 	
-    return new Blob([str]).size;
+     return new Blob([str]).size;
 }
 
 // Example test cases
